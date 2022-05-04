@@ -53,7 +53,6 @@
         {   "text": ":key=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": " ref=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
 
-        
         {   "text": "{{--","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
         {   "text": "{{","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
         {   "text": "}}","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
