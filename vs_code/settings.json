@@ -1,0 +1,153 @@
+{   "editor.rulers": [ 72, 80, 100, 120 ],    
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "'consolas','Ubuntu Mono'",
+    "editor.fontFamily": "'Cascadia Code', 'MonoLisa','Monaco for Powerline','Fira code','SF Mono'", 
+    "editor.fontWeight": "300",
+    "editor.lineHeight": 1.5,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.letterSpacing": -0.0,
+    "workbench.colorTheme": "Umbra",
+    "workbench.statusBar.visible": true,
+    "php.validate.executablePath": "",
+    "security.workspace.trust.untrustedFiles": "open",
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,    
+    "todohighlight.keywords": [
+        "DEBUG:","REVIEW:",
+        {
+            "text": "NOTE:",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "overviewRulerColor": "grey"
+            
+        },
+        {
+            "text": "HACK:",
+            "color": "#000",
+            "isWholeLine": false,
+            
+        },
+        {   "text": "// --- UPDATED:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        {   "text": "// --- TO:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        {   "text": "// --- USE:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        {   "text": "// --- ALSO:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        {   "text": "// --- OR:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        
+        {
+            "text": "TODO:",
+            "color": "#fff",
+            "isWholeLine": false,
+            "backgroundColor": "#6699CC",
+        },
+        {   "text": "v-once","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-on","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-model","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-for","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-bind","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-html","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-if","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-else-if","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-else","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "v-show","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": ":key=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": " ref=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+
+        
+        {   "text": "{{--","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
+        {   "text": "{{","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
+        {   "text": "}}","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
+        {   "text": "--}}","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
+        {   "text": "* @method","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
+
+        {   "text": "@foreach","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@if","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@elseif","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@else","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endif","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endforeach","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@forelse","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@continue","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endif","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@break","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@empty","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endforelse","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@for","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endfor","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@php","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endphp","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@while","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endwhile","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endsection","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000","textDecoration": "overline"},
+        {   "text": "@section","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000", "textDecoration": "underline"},
+        {   "text": "@unless","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000", },
+        {   "text": "@endunless","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@isset","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endisset","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@extends","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endempty","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@yield","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@include","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@error","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@enderror","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@method","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@guest","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endguest","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@csrf","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#ff0000"},
+        
+        {   "text": "  data() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  methods: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  computed: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  watch: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  template: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  beforeCreate() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  created() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  beforeMount() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  mounted() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  beforeUpdate() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  updated() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  beforeUnmount() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  unmounted() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  props: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  components: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  emits: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  provide: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  provide() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  inject: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+      
+        
+    ],    
+    "insert-br-tag.enableOnLanguage": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "markdown",
+        "html",
+        "php"
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "PHP Purple Tags",
+                "scope": [
+                    "punctuation.section.embedded.begin.php",
+                    "punctuation.section.embedded.end.php"
+                ],
+                "settings": {
+                    "foreground": "#47a0ff",
+                    
+                }
+            }
+        ]
+    },
+    "redhat.telemetry.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.iconTheme": "seti"
+
+}
