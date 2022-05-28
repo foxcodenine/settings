@@ -16,13 +16,6 @@
     "todohighlight.keywords": [
         "DEBUG:","REVIEW:",
         {
-            "text": "NOTE:",
-            "color": "#ff0000",
-            "backgroundColor": "yellow",
-            "overviewRulerColor": "grey"
-            
-        },
-        {
             "text": "HACK:",
             "color": "#000",
             "isWholeLine": false,
@@ -31,9 +24,19 @@
         {   "text": "// --- UPDATED:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
         {   "text": "// --- TO:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
         {   "text": "// --- USE:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        {   "text": "// --- TRYING:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
         {   "text": "// --- ALSO:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
         {   "text": "// --- OR:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        {   "text": "// --- NOTE:", "color": "#F4FF81", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.3" },
+        {   "text": "// <- MY THING", "color": "#B5E0F1", "isWholeLine": false,"backgroundColor": "#0", "opacity": "0.4" },
         
+        {
+            "text": "NOTE:",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "overviewRulerColor": "grey"
+            
+        },
         {
             "text": "TODO:",
             "color": "#fff",
@@ -52,11 +55,14 @@
         {   "text": "v-show","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": ":key=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": " ref=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": " v-slot","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": ":is=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
 
-        {   "text": "{{--","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
+
+        {   "text": "{{--","isWholeLine": true,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
         {   "text": "{{","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
         {   "text": "}}","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
-        {   "text": "--}}","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
+        {   "text": "--}}","isWholeLine": true,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
         {   "text": "* @method","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#616d70",},
 
         {   "text": "@foreach","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
@@ -92,6 +98,16 @@
         {   "text": "@method","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
         {   "text": "@guest","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
         {   "text": "@endguest","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@cannot","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endcannot","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@can","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endcan","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@component","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endcomponent","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@slot","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endslot","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@auth","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
+        {   "text": "@endauth","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal","color": "#ff0000",},
         {   "text": "@csrf","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#ff0000"},
         
         {   "text": "  data() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
@@ -113,7 +129,9 @@
         {   "text": "  provide: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "  provide() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "  inject: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
-      
+        {   "text": "?>","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
+        {   "text": "<?php","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
+     
         
     ],    
     "insert-br-tag.enableOnLanguage": [
