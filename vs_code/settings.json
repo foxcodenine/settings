@@ -131,6 +131,7 @@
         {   "text": "  inject: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "?>","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
         {   "text": "<?php","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
+        {   "text": "<?=","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#47a0ff",},
      
         
     ],    
