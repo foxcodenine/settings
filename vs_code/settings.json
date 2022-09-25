@@ -1,7 +1,7 @@
 {   "editor.rulers": [ 72, 80, 100, 120 ],    
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontFamily": "'consolas','Ubuntu Mono'",
-    "editor.fontFamily": "'Cascadia Code', 'MonoLisa','Monaco for Powerline','Fira code','SF Mono'", 
+    "editor.fontFamily": "'Monaco for Powerline', 'Cascadia Code', 'MonoLisa', 'Fira code','SF Mono'", 
     "editor.fontWeight": "300",
     "editor.lineHeight": 1.5,
     "editor.fontLigatures": true,
@@ -76,6 +76,11 @@
             "isWholeLine": false,
             "backgroundColor": "#6699CC",
         },
+
+        {   "text": " v-slot=\"slotProps\"","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal"},
+        {   "text": " mode=\"out-in\"","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal"},
+        {   "text": " :is=\"slotProps.Component\"","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "normal"},
+
         {   "text": "v-once","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "v-on","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "v-model","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
@@ -92,7 +97,9 @@
         {   "text": ":is=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": ":css=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": ":to=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
-        {   "text": "tag=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": ":class=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": " tag=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+
 
         {   "text": " @before-enter=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": " @enter=","color": "#41b883","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
@@ -223,9 +230,10 @@
     "terminal.integrated.cursorBlinking": true,
     "workbench.iconTheme": "seti",
     "editor.largeFileOptimizations": false,
-    "workbench.editor.splitInGroupLayout": "vertical",
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "workbench.editor.labelFormat": "short"
 
 }

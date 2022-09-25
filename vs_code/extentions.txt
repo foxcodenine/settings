@@ -8,7 +8,7 @@ dakshmiglani.hex-to-rgba
 dcasella.monokai-plusplus
 formulahendry.vscode-mysql
 greven.umbra
-octref.vetur
+hollowtree.vue-snippets
 onecentlin.laravel-blade
 onecentlin.laravel5-snippets
 phproberto.vscode-php-getters-setters
@@ -16,8 +16,11 @@ qinjia.seti-icons
 redhat.vscode-xml
 ritwickdey.LiveServer
 ryannaddy.laravel-artisan
+sdras.vue-vscode-snippets
 shd101wyy.markdown-preview-enhanced
+shufo.vscode-blade-formatter
 stkb.rewrap
 vincaslt.highlight-matching-tag
+Vue.volar
 wayou.vscode-todo-highlight
 WyattFerguson.jinja2-snippet-kit
