@@ -163,6 +163,9 @@
         {   "text": "@csrf","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold","color": "#ff0000"},
         
         {   "text": "  data() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  setup(props, context) ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  setup(props)  ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
+        {   "text": "  setup() ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "  methods: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "  computed: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
         {   "text": "  watch: ","isWholeLine": false,"backgroundColor": "transparent","fontWeight": "bold"},
@@ -228,12 +231,12 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "terminal.integrated.cursorBlinking": true,
-    "workbench.iconTheme": "seti",
     "editor.largeFileOptimizations": false,
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
     "workbench.editor.splitInGroupLayout": "vertical",
-    "workbench.editor.labelFormat": "short"
+    "workbench.editor.labelFormat": "short",
+    "workbench.iconTheme": "vscode-icons-mac"
 
 }
